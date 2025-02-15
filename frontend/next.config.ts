@@ -6,6 +6,8 @@ const nextConfig: NextConfig = {
     host: '0.0.0.0', // Listen on all interfaces
     port: 3000, // Ensure this is the same port you're trying to access
   },
+  
+  
 };
 
 export default nextConfig;

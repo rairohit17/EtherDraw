@@ -8,7 +8,7 @@ export default function Header() {
     const shouldShowNav = pathname !== '/participate';
 
     return (
-        <header className="flex justify-between items-center px-3 py-3 text-[#3898FF] md:mb-[200px] lg:mb-[100px]">
+        <header className="flex justify-between items-center px-3 py-3 text-[#3898FF]  lg:mb-[100px]">
             {/* Logo */}
             <Link href="/" className="text-3xl sm:text-4xl font-rajdhani font-semibold select-none hover:opacity-90 transition-opacity">
                 EtherDraw .
