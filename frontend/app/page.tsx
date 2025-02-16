@@ -52,7 +52,7 @@ export default function Home() {
           </div>
           
         </div>
-        <section id="about" className="mt-[100px]">
+        <section id="about" className="mt-[200px]">
           <div className="text-[#3898FF] font-rajdhani font-bold text-3xl w-full text-center">
             About
           </div>
