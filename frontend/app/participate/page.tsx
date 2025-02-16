@@ -43,8 +43,8 @@ export default function Participate() {
     try {
       const contract = await getLotteryContract(walletClient);
       if (!contract) return;
-      const ethAmount = parseFloat('.01');
-      const weiAmount = Math.floor(ethAmount * 1e18);
+      const intEth = parseFloat(ethAmount)
+      const weiAmount = Math.floor(intEth * 1e18);
       console.log(weiAmount); 
         
       const tx = await contract.participateInLottery({
