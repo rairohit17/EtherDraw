@@ -7,7 +7,7 @@ export default function Home() {
     <main className="min-h-screen w-full">
       
       {/* Main content container */}
-      <div className="container mx-auto px-4 md:mt-[200px] mt-[100px] lg:mt-32 ">
+      <div className="container mx-auto px-4 md:mt-[200px] mt-[200px] lg:mt-32 ">
         <div className="flex flex-col md:flex-row items-center justify-center gap-8 lg:gap-16">
           
           {/* Text content */}
